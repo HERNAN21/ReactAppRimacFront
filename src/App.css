@@ -14,7 +14,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #676F8F;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
@@ -27,6 +27,57 @@
 .App-link {
   color: #61dafb;
 }
+
+
+/* Logo RIMAC */
+
+.logo-rimac{
+  position: absolute;
+  width: 154px;
+  height: 28px;
+  left: 72px;
+  top: 100px;
+}
+
+/* Flujo HP */
+
+.flujo-hp{
+  position: absolute;
+  /* width: 656px; */
+  height: 68px;
+  left: 72px;
+  top: 247px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 52px;
+  line-height: 68px;
+  /* identical to box height, or 131% */
+  letter-spacing: -0.6px;
+  /* White */
+  color: #FFFFFF;
+}
+
+.mobileDesktop{
+  position: absolute;
+  /* width: 656px; */
+  height: 40px;
+  left: 72px;
+  top: 354.66px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 40px;
+  
+}
+
+.mobileDesktop a{
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+
 
 @keyframes App-logo-spin {
   from {

@@ -1,0 +1,214 @@
+/* Logo RIMAC */
+
+
+.contenedor{
+  display: flex;
+  overflow: hidden;
+}
+
+/* Contenedo Izquierdo */
+.container1{
+  width: 40%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+  /* background-color: red; */
+}
+
+.fondo{
+  position: relative; 
+  left: 0; 
+  top: 0;
+}
+
+.imagen1{
+  width: 50%; 
+  /* height: auto; */
+  position:absolute;
+  top: 175px;
+  left : 200px;
+  z-index: 1;
+}
+
+.imagen2{
+  width: 100%;
+  height: auto;
+  /* position:absolute; */
+  z-index: -2;
+}
+
+.imagen3{
+  width: 120px; 
+  position: absolute;
+  top: 15%;
+  left : 25%;
+  z-index: 2;
+}
+
+.contenedor-info{
+  position: absolute;
+  width: 40%;
+  height: auto;
+  margin-top: -4px;
+  background: #ECF0FF;
+}
+
+.contenedor-info p {
+  padding-left: 150px
+}
+
+.contenedor-info .nuevo{
+  position: absolute;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 16px;
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  color: #494F66;
+}
+
+.seguro{
+  display: flex;
+  padding-left: 150px
+}
+.seguro .seguro_s{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  color: #494F66;
+  padding: 0;
+}
+
+.seguro .seguro_v{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  color: hsl(356deg 85% 57%);
+  padding-left: 10px;
+}
+
+.tracking{
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 36px;
+  color: hsl(356deg 85% 57%);
+  margin-top: -15px;
+}
+
+
+.segimiento{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #676F8F;
+  padding-bottom: 115px;
+}
+
+.derechos{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
+  display: flex;
+  align-items: center;
+  color: #676F8F;
+  margin-left: -50px;
+  padding-bottom: 50px;
+}
+
+
+
+/* ================================ */
+
+/* Contenedor Derecho */
+.container2{
+  margin-top: 10px;
+  width: 60%;
+  /* background-color: blue; */
+  height: auto;
+}
+
+.conatctenos{
+  display: inline-flex;
+  float: right;
+  margin-right: 100px;
+}
+
+/* ¿Tienes alguna duda? */
+.text-cuestion{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  /* identical to box height, or 167% */
+  align-items: center;
+  text-align: right;
+  letter-spacing: 0.2px;
+  /* Gray_2_Paragraph */
+  color: #676F8F;
+  margin-right: 5px;
+}
+
+.telf{
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 20px;
+  align-items: center;
+  text-align: right;
+  letter-spacing: 0.2px;
+  color: #6F7DFF;
+}
+
+/* Form Data */
+
+.form-data{
+  margin: 10% 25%;
+  width: 40%;
+  height: 600px;
+  /* background-color: red; */
+}
+
+.text-form{
+  Width :288px;
+  Height: 36px;
+  Top:  112px;
+  Left :  760px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: -0.2px;
+  color: #494F66;
+}
+
+.select{
+  background: #FFFFFF;
+  border: 1.00694px solid #C5CBE0;
+  box-sizing: border-box;
+  border-radius: 4.02778px;
+  width: 188px;
+  height:56px;
+}
+
+.input-text{
+  background: #FFFFFF;
+  border: 1.00694px solid #C5CBE0;
+  box-sizing: border-box;
+  border-radius: 4.02778px;
+  width: 288px;
+  height:56px;
+}
